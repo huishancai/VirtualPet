@@ -4,14 +4,11 @@ Arduino arduino;
 
 public void setup(){
   size(600, 600);
-  arduino = new Arduino(this, Arduino.list()[0], 57600);
 }
 public void draw(){
   fill(139, 69, 19);
   background(137, 207, 240);
-  int y = arduino.analogRead(5);
   System.out.println(y);
-  //ellipse(400, 2*y, 100, 25);
   ellipse(400, 350, 100, 25);
   //tail
   //ears
