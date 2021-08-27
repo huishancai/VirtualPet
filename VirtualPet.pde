@@ -1,12 +1,7 @@
-import processing.serial.*;
-import cc.arduino.*;
-Arduino arduino;
-
 public void setup(){
   size(600, 600);
 }
 public void draw(){
-  fill(139, 69, 19);
   background(137, 207, 240);
   System.out.println(y);
   ellipse(400, 350, 100, 25);
