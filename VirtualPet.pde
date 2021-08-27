@@ -1,9 +1,17 @@
+//import processing.serial.*;
+//import cc.arduino.*;
+//Arduino arduino;
+
 public void setup(){
   size(600, 600);
+  background(137, 207, 240);
+  //arduino = new Arduino(this, Arduino.list()[0], 57600);
 }
 public void draw(){
-  background(137, 207, 240);
-  System.out.println(y);
+  fill(139, 69, 19);
+  //int y = arduino.analogRead(5);
+  //System.out.println(y);
+  //ellipse(400, 2*y, 100, 25);
   ellipse(400, 350, 100, 25);
   //tail
   //ears
